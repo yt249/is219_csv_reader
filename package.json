@@ -1,23 +1,22 @@
 {
-  "name": "is219_csv_reader",
+  "name": "is219",
   "version": "1.0.0",
-  "description": "My Node App",
-  "main": "src/Index.js",
+  "description": "My  Node App",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/Index.js",
+    "start": "node src/index.js",
     "coverage": "jest --coverage",
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "keywords": [],
-  "author": "Keith Williams",
-  "email": "keith@webizly.com",
+  "author": "Yu-Ching Tseng",
+  "email": "yt249@njit.edu",
   "license": "ISC",
   "dependencies": {
+    "@types/lodash": "^4.14.168",
     "csv": "^5.3.2",
-    "csv-parse": "latest",
-    "express": "^4.17.1",
-    "@jest/globals": "latest"
+    "csv-parse": "latest"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
