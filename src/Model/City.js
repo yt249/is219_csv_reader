@@ -17,6 +17,9 @@ class City{
     static create(data) {
         return new City(data);
     }
+
+
+
 }
 
 module.exports = City;
